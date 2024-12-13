@@ -1,0 +1,102 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: -9;
+    text-align: center;
+    background-image: url(https://img.lovepik.com/background/20211020/large/lovepik-childrens-education-background-map-image_400063427.jpg);
+    left: 900px;
+  .portada {
+ 
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    top: 2px;
+  background-color: rgba(255, 255, 255, 0.945);
+  border: solid 3px rgba(41, 95, 165, 0.781);
+  background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-learning-reading-knowledge-accumulation-background-template-picture-image_1004070.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 7px;
+ 
+  }
+  
+  #encabezado-pregunta {
+    background-color: rgba(165, 253, 165, 0.904);
+    width: 50vw;
+    min-height: 200px;
+    padding: 15px;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+
+  }
+  
+  input[type="radio"]{
+       display: none;
+       width: 100%;
+  }
+  
+  input[type="radio"]:checked + label{
+       background-color: rgba(250, 0, 62, 0.473);
+       color: rgb(38, 0, 255);
+      
+
+  }
+  
+  label{
+       padding: 5px;
+       margin: 1px;
+       width: 50vw;
+       background-color: rgba(240, 240, 240, 0.863);
+       border: 2px solid rgba(255, 20, 20, 0.521);
+       border-radius: 18px;
+      
+  }
+  .imagen{
+    height: 70px;
+    width: 70px;
+    border-radius: 3px;
+ 
+  
+  }
+  .imagen1{
+    height: 70px;
+    width: 70px;
+    left: 1250px;
+    top: 5px;
+    border-radius: 3px;
+    position: absolute;
+
+
+    
+    
+ 
+  }
+  /* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+	body {
+		width: 100%;
+	}
+
+	#encabezado-pregunta {
+		width: 100%;
+	}
+
+	.imagen {
+		font-size: 0.8em;
+		padding: 15px;
+	}
+
+	.imagen1 {
+		font-size: 1.5em;
+		padding: 15px;
+	}
+}
+}
